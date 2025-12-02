@@ -3,7 +3,7 @@ var randomNumber1 = Math.floor(Math.random()*6) + 1 ;
 // for image 1
 var dice1 = "dice" + randomNumber1 + ".png" ;
 
-var imageSource = "/frontend/Images/" + dice1 ;
+var imageSource = "/Images/" + dice1 ;
 
 var image1 = document.querySelectorAll("img")[0] ;
 
@@ -14,7 +14,7 @@ var randomNumber2 = Math.floor(Math.random()*6) + 1 ;
 
 var dice2 = "dice" + randomNumber2 + ".png" ;
 
-var imageSource2 = "/frontend/Images/" + dice2 ;
+var imageSource2 = "/Images/" + dice2 ;
 
 var image2 = document.querySelectorAll("img")[1] ;
 
